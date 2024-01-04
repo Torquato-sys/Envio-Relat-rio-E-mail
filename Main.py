@@ -24,14 +24,15 @@ ticket_medio = (faturamento['Valor Final'] / prod_vendido['Quantidade']).to_fram
 ticket_medio = ticket_medio.rename(columns={0: 'Ticket Médio'})
 print(ticket_medio)
 
-def message():
+# caixa de mensagem para avisar se o email foi enviado.
+def message(): 
     messagebox.showinfo(title="info", message="Email enviado!")
 
 # enviar email com o relatorio
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'nathmorais223@gmail.com' # email de destino
-mail.Subject = 'Relatorio de Vendas por Loja'
+mail.To = 'nathgirleteteu@gmail.com' # Email de destino
+mail.Subject = 'Relatorio de Vendas por Loja' # Titulo do email
 mail.HTMLBody = f''' 
 <p>Nathalia Cristinne,</p>
 
