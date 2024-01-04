@@ -1,7 +1,9 @@
 <h1 align="center"> Analise_Dados </h1>
 <h2 align="center"> Envio relatorio por e-mail! </h2>
 
-![img-Dados](https://github.com/Torquato-sys/Analise_Dados-Vendas-/assets/80015572/39d8c892-347e-4a4a-ad4a-43311d52b248)
+### Chega de Relatorios a mão e automatize com Python.
+![relatorio](https://github.com/Torquato-sys/Envio-Relatorio-Email/assets/80015572/f947ab4a-de95-44b7-ace6-729a51bef073)
+ 
 
 <p align="center">
 <img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=%20CONCLUIDO&color=GREEN&style=for-the-badge"/>
@@ -22,6 +24,8 @@
 * Biblioteca win32com
 * Biblioteca pandas as pd
 * Biblioteca tkinter import messagebox
+
+## win32 foi utilazado para comunicação do Outlook para que fosse possivel o envio de email sem automação web.
 
 ## Utilizamos a biblioteca tkinter para usufruir das caixas de mensagem para nos avisar de uma maneira mais elegante que o nosso email foi enviado.
 ## Codigo utilizado:
@@ -45,18 +49,20 @@ message()
 - `Funcionalidade 2a`: Realizar contas de tabelas de forma pratica e rapida
 - `Funcionalidade 3`: Enviar um relatorio das suas analises via e-mail com python
 
-## Listando arquivos na pasta "Vendas".
-![Biblioteca os.listdir](https://github.com/Torquato-sys/Analise_Dados-Vendas-/assets/80015572/94b5169a-0aa3-4ca3-a08e-4493d14e4638)
+## Comunicação python com tabela excel.
+![python/excel](https://github.com/Torquato-sys/Envio-Relatorio-Email/assets/80015572/3578350b-ea6e-49aa-9461-aa12a92d348f)
 
-## Juntando todos os aquivos .csv com "Vendas" no nome do arquivo.
-![Tabela_total](https://github.com/Torquato-sys/Analise_Dados-Vendas-/assets/80015572/dfce2ba5-55e8-4257-b6c2-31044b7112fe)
 
-## Modelando os dados com Pandas:
-![modelagem_dados](https://github.com/Torquato-sys/Analise_Dados-Vendas-/assets/80015572/95e51c06-5c66-4edf-b3e4-937952865c8c)
-![modelagem_dados](https://github.com/Torquato-sys/Analise_Dados-Vendas-/assets/80015572/59393bc7-c462-4d3c-aab9-9b53d45ab5ea)
-![modelagem_dados](https://github.com/Torquato-sys/Analise_Dados-Vendas-/assets/80015572/62060617-8721-4574-8221-79d8daa30f03)
-![grafico](https://github.com/Torquato-sys/Analise_Dados-Vendas-/assets/80015572/b167d6a3-dbed-49d2-809c-3fb00f77b42d)
+## Modelagem e separação das tabelas.
+![modelagem dados](https://github.com/Torquato-sys/Envio-Relatorio-Email/assets/80015572/384f6f8b-5341-43be-8d86-1988f9ab4066)
 
+## função para verificar se o email foi enviado, com direito a caixa de mensagem:
+![função-tk](https://github.com/Torquato-sys/Envio-Relatorio-Email/assets/80015572/c1549a2c-0a08-422a-b472-834f97d44b29)
+
+## Utilizando win32 para enviar o email todo formatado com HTML:
+![win32](https://github.com/Torquato-sys/Envio-Relatorio-Email/assets/80015572/e9bb9317-86f7-4134-9751-c419e6e27cc3)
+
+### Campo para colocar o email desejado e formatação de valores(números) utilizando formatters.
 
 # Tecnologias utilizadas
 - ``Python 3.x``
