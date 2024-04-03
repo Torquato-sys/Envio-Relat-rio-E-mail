@@ -29,7 +29,7 @@
 
 ## Utilizamos a biblioteca tkinter para usufruir das caixas de mensagem para nos avisar de uma maneira mais elegante que o nosso email foi enviado.
 ## Codigo utilizado:
-```ruby
+```python
 from tkinter import messagebox
 
 # caixa de mensagem para avisar se o email foi enviado.
